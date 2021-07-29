@@ -28,5 +28,12 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test", 
+      "pre-push": "npm test",
+      "...": "..."
+    }
   }
 }
