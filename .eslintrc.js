@@ -9,6 +9,11 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:react-hooks/recommended',
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   plugins: ['react', 'prettier', 'import'],
   parserOptions: {
     ecmaFeatures: {
@@ -22,8 +27,8 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        semi: false,
         singleQuote: true,
+        semi: false,
         tabWidth: 2,
         brackectSpacing: true,
         arrowParens: 'avoid',

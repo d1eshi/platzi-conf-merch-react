@@ -1,0 +1,96 @@
+.Information {
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
+  grid-row-gap: 1.5em;
+  display: grid;
+  margin: 0 0 4em 0;
+}
+.Information-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
+}
+.Information-sidebar {
+  margin: 10px 0 0 0;
+}
+.Information-back {
+  margin: 10px 0 0 0;
+}
+.Information-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Information-item .fas {
+  margin: 0 0 0 10px;
+  color: rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+.Information-item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.Information-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.Information-element h4 {
+  margin: 0;
+}
+h2 {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+h3 {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+input {
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  color: rgba(0,0,0,0.75);
+  display: inline-block;
+  font-feature-settings: "tnum";
+  font-size: 14px;
+  height: 32px;
+  line-height: 32px;
+  list-style: none;
+  margin: 0 0 8px 0;
+  outline: 0;
+  padding: 4px 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Information-form form p {
+    margin: 0;
+    font-size: .8rem;
+    margin-bottom: 1em;
+  color: #bf1650;
+}
+
+.Information-form form .btn {
+  background-color: #bf1650;
+}
+.Information-form form .btn-submit {
+  background-color: #98ca3f;
+  padding: 12px 14px;
+}
+
+.Information-form form .btn-submit:hover {
+  background-color: #84b135;
+  
+}
+
+.Information-form form p::before {
+  display: inline;
+  content: "⚠ ";
+}
